@@ -1,0 +1,1 @@
+This directory is repository for [vuejs course](https://www.youtube.com/watch?v=_VUbml1oR-w&list=PLAt10Vana3YeC2d1tLRFjzYOqqWufyzGx)
