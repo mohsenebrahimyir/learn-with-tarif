@@ -72,11 +72,17 @@
             },
             computed: {
                 isHot() {
-                    console.log("Calculation is started...")
                     if (this.likes >= 100) {
                         return "(Hot)"
                     }
                 },
+            },
+            watch: {
+                likes(value) {
+                    if (this.likes == 100) {
+                        alert("Congra .. you reached 100 likes!")
+                    }
+                }
             }
         }).mount("#app")
     </script>
